@@ -259,7 +259,7 @@ body {
 /* --------------------
         media Quary       
 ------------------------ */
-@media (max-width: 576px) {
+@media (max-width: 688px) {
   .nav-container {
     display: flex;
     flex-direction: column;
