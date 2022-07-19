@@ -368,3 +368,44 @@ body {
     margin-bottom: 40px;
   }
 }
+@media (min-width: 689px) and (max-width: 991px) {
+  .nav-container {
+    width: 95%;
+  }
+  .nav-manus {
+    width: 50%;
+  }
+  .banner {
+    display: flex;
+    width: 95%;
+  }
+  .banner-artical-title h1 {
+    font-weight: 700;
+    font-size: 42px;
+    color: #3a3a3a;
+    margin-bottom: 10px;
+  }
+  .brands {
+    width: 90%;
+  }
+  .poducts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 15px;
+    justify-items: center;
+    width: 80%;
+    margin: auto;
+  }
+  .featured-products-thumbnail img {
+    width: 90%;
+    height: 300px;
+    border-radius: 5px;
+  }
+  .featured-products-blog h1 {
+    color: #18191f;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+}
