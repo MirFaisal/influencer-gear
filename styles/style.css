@@ -368,7 +368,7 @@ body {
     margin-bottom: 40px;
   }
 }
-@media (min-width: 689px) and (max-width: 991px) {
+@media (min-width: 689px) and (max-width: 1300px) {
   .nav-container {
     width: 95%;
   }
